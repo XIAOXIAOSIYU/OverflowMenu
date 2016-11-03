@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/activity_menu"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_color_green"
+            android:icon="@android:drawable/stat_sys_phone_call"
+            android:orderInCategory="100"
+            android:title="@string/green"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/item_color_red"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:orderInCategory="101"
+            android:title="@string/red"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/item_color_blue"
+            android:icon="?android:attr/textSelectHandle"
+            android:orderInCategory="102"
+            android:title="@string/blue"
+            app:showAsAction="never" />
+    </group>
+
+</menu>
